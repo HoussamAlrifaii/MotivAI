@@ -4,7 +4,7 @@ MotivAI is a web-based platform designed to provide personalized audio messages 
 
 ## How It Works
 
-MotivAI uses advanced AI voice synthesis technology to generate personalized audio messages that mimic the voice of a selected celebrity. Users can input their desired message, and the platform processes this input to create a realistic audio clip in the celebrity's voice. The system leverages machine learning models trained on celebrity voice data to ensure high-quality and natural-sounding results.
+MotivAI uses advanced AI voice synthesis technology to generate personalized audio messages that mimic the voice of a selected celebrity. Users can input their desired message, and the platform processes this input to create a realistic audio clip in the celebrity's voice. The system leverages machine learning models trained on celebrity voice data to ensure high-quality and natural-sounding results. These machine learning models are accessed indirectly via external AI voice synthesis services, such as the ElevenLabs API, rather than being implemented directly within the project codebase.
 
 ## Project Structure
 
